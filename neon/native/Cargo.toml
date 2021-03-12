@@ -15,5 +15,6 @@ crate-type = ["cdylib"]
 neon-build = "0.7.1"
 
 [dependencies]
+blake3 = "0.3.7"
 md5 = "0.7.0"
 neon = "0.7.1"
