@@ -84,28 +84,26 @@ Run `make` to run the benchmark.
 
 Using the npmjs md5 package
 
-https://www.npmjs.com/package/md5
+<https://www.npmjs.com/package/md5>
 
-### neon
+### rust
+
+md5 crate use:
+
+<https://crates.io/crates/md5>
+
+blake3 crate use:
+
+<https://crates.io/crates/blake3>
+
+#### neon
 
 Rust bindings for writing safe and fast native Node.js modules.
 
-https://www.neon-bindings.com/
+<https://www.neon-bindings.com>
 
-For md5 use:
-
-https://crates.io/crates/md5
-
-For blake3 use:
-https://crates.io/crates/blake3
-
-
-### wasm
+#### wasm
 
 WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine.
 
-https://webassembly.org/
-
-For md5 I used the cargo package
-
-https://crates.io/crates/md5
+<https://webassembly.org>
