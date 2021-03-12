@@ -5,8 +5,8 @@ const Benchmark = require("benchmark");
 
 const map = {
   "js-md5": js,
-  "wasm-md5": wasm,
-  // "wasm-blake3": wasm,
+  "wasm-md5": wasm.md5,
+  "wasm-blake3": wasm.blake3,
   "neon-md5": neon.md5,
   "neon-blake3": neon.blake3,
 };
