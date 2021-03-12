@@ -1,3 +1,5 @@
+test: install
+	node test.js
 install: js wasm neon
 	yarn
 js:
@@ -6,7 +8,3 @@ wasm:
 	cd wasm && wasm-pack build --release --target nodejs
 neon:
 	cd neon && yarn
-test: install
-	node test.js
-
-.PHONY: all
