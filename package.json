@@ -1,0 +1,10 @@
+{
+  "name": "md5-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Artin <lengthmin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4"
+  }
+}

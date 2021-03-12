@@ -1,0 +1,7 @@
+{
+  "name": "test_md5",
+  "version": "0.1.0",
+  "dependencies": {
+    "md5": "^2.3.0"
+  }
+}
