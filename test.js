@@ -1,12 +1,12 @@
-const wasm = require("./wasm");
+const wasm = require("./rust-wasm");
 const js = require("./js");
 const neon = require("./neon");
 const Benchmark = require("benchmark");
 
 const map = {
   "js-md5": js,
-  "wasm-md5": wasm.md5,
-  "wasm-blake3": wasm.blake3,
+  "rust-wasm-md5": wasm.md5,
+  "rust-wasm-blake3": wasm.blake3,
   "neon-md5": neon.md5,
   "neon-blake3": neon.blake3,
 };
