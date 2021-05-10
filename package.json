@@ -5,6 +5,7 @@
   "author": "Artin <lengthmin@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "benchmark": "^2.1.4"
+    "benchmark": "^2.1.4",
+    "hash-wasm": "^4.5.0"
   }
 }

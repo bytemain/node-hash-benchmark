@@ -1,10 +1,10 @@
 test: install
 	node test.js
-install: js wasm neon
+install: js rust-wasm neon
 	yarn
 js:
 	cd js && yarn
-wasm:
-	cd wasm && wasm-pack build --release --target nodejs
+rust-wasm:
+	cd rust-wasm && wasm-pack build --release --target nodejs
 neon:
 	cd neon && yarn
